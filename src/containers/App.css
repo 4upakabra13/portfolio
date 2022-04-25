@@ -1,0 +1,97 @@
+
+
+.App {
+  text-align: center;
+}
+
+
+.topnav{
+  background-color: black;
+  position: fixed;
+  opacity: 30%;
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  z-index: 10000;
+  top: 0px;
+  height: 5%;
+}
+
+.App{
+  position: absolute;
+  height: 600%;
+  width: 100%;
+}
+
+.vid_main{
+  width: 100%;
+  height: 17%;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  z-index: -100;
+}
+
+.my_photo{
+  height: 200px;
+  width: 200px;
+  border: 5px solid white;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 5%;
+  z-index: 500;
+
+}
+
+.first{
+  height: 100%;
+}
+
+.text_first{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+}
+
+.greet{
+  top: 8%;
+  font-family: 'Gumball';
+  font-weight: 200;
+  font-size: 70px;
+}
+
+.love{
+  top: 10%;
+  font-family:'Gumball';
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.second{
+  position: absolute;
+  top: 17%;
+  height: 17%;
+  width: 100%;
+  background-color: #f75dce;
+  display: flex;
+  flex-direction: column;
+}
+
+.about{
+  background-color: white;
+  height: 50%;
+}
+
+.skills{
+  background-color: blue;
+  height: 50%;
+}
