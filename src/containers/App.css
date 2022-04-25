@@ -6,15 +6,49 @@
 
 
 .topnav{
-  background-color: black;
+  background-color: rgb(70, 68, 68);
   position: fixed;
-  opacity: 30%;
+  opacity: 80%;
   width: 100%;
   display: flex;
-  /* justify-content: space-between; */
   z-index: 10000;
   top: 0px;
   height: 5%;
+  flex-direction: row;
+  align-items: center;
+}
+
+.namee{
+  color:#00d5ea;
+  font-family: 'Gumball';
+  font-weight: 200;
+  font-size: 40px;
+  flex-grow: 1;
+
+}
+
+.skills_nav{
+  flex-grow: 4;
+  gap: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.butt_nav{
+  color: #fed768;
+  font-weight: 500;
+  font-family:'Roboto';
+  font-weight: 999;
+  letter-spacing: 1px;
+}
+
+.icons{
+  flex-grow: 1;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  padding-right: 2%;
 }
 
 .App{
@@ -48,6 +82,27 @@
 
 }
 
+.icons_h:hover{
+  color: yellow;
+}
+
+.github_icon{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+
+.cv_icon{
+  height: 30px;
+  width: 30px;
+}
+
+.linkedin_icon{
+  height: 30px;
+  width: 30px;
+}
+
 .first{
   height: 100%;
 }
@@ -79,7 +134,7 @@
 .second{
   position: absolute;
   top: 17%;
-  height: 17%;
+  height: 34%;
   width: 100%;
   background-color: #f75dce;
   display: flex;
@@ -89,9 +144,11 @@
 .about{
   background-color: white;
   height: 50%;
+  display: flex;
 }
 
 .skills{
   background-color: blue;
   height: 50%;
+  display: flex;
 }
