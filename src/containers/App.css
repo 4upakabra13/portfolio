@@ -1,10 +1,5 @@
-
-
 .App {
-  text-align: center;
-}
-
-
+  text-align: center;}
 .topnav{
   background-color: rgb(70, 68, 68);
   position: fixed;
@@ -15,57 +10,45 @@
   top: 0px;
   height: 5%;
   flex-direction: row;
-  align-items: center;
-}
-
-.namee{
-  color:#00d5ea;
-  font-family: 'Gumball';
-  font-weight: 200;
-  font-size: 40px;
-  flex-grow: 1;
-
-}
-
-.skills_nav{
-  flex-grow: 4;
-  gap: 10%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
+  align-items: center;}
 .butt_nav{
   color: #fed768;
   font-weight: 500;
   font-family:'Roboto';
   font-weight: 999;
-  letter-spacing: 1px;
-}
-
+  letter-spacing: 1px;}
+@media screen and (max-width:900px) {
+  .butt_nav{display: none !important;};
+  div.icons_h{display:none !important;}}
+.namee{
+  color:#00d5ea;
+  font-family: 'Gumball';
+  font-weight: 200;
+  font-size: 40px;
+  flex-grow: 1;}
+.skills_nav{
+  flex-grow: 4;
+  gap: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;}
 .icons{
   flex-grow: 1;
   display: flex;
   gap: 20px;
   justify-content: flex-end;
-  padding-right: 2%;
-}
-
+  padding-right: 2%;}
 .App{
   position: absolute;
   height: 600%;
-  width: 100%;
-}
-
+  width: 100%;}
 .vid_main{
   width: 100%;
   height: 17%;
   margin: 0;
   padding: 0;
   object-fit: cover;
-  z-index: -100;
-}
-
+  z-index: -100;}
 .my_photo{
   height: 200px;
   width: 200px;
@@ -78,35 +61,19 @@
   right: 0;
   text-align: center;
   top: 5%;
-  z-index: 500;
-
-}
-
-.icons_h:hover{
-  color: yellow;
-}
-
+  z-index: 500;}
 .github_icon{
   height: 30px;
   width: 30px;
-  border-radius: 50%;
-}
-
-
+  border-radius: 50%;}
 .cv_icon{
   height: 30px;
-  width: 30px;
-}
-
+  width: 30px;}
 .linkedin_icon{
   height: 30px;
-  width: 30px;
-}
-
+  width: 30px;}
 .first{
-  height: 100%;
-}
-
+  height: 100%;}
 .text_first{
   position: absolute;
   margin-left: auto;
@@ -114,23 +81,17 @@
   left: 0;
   right: 0;
   text-align: center;
-  color: white;
-}
-
+  color: white;}
 .greet{
   top: 8%;
   font-family: 'Gumball';
   font-weight: 200;
-  font-size: 70px;
-}
-
+  font-size: 70px;}
 .love{
   top: 10%;
   font-family:'Gumball';
   font-weight: 400;
-  font-size: 30px;
-}
-
+  font-size: 30px;}
 .second{
   position: absolute;
   top: 17%;
@@ -138,17 +99,19 @@
   width: 100%;
   background-color: #f75dce;
   display: flex;
-  flex-direction: column;
-}
-
+  flex-direction: column;}
 .about{
-  background-color: white;
+  background-color: #570373;
   height: 50%;
   display: flex;
+  flex-direction: row;
 }
-
 .skills{
   background-color: blue;
   height: 50%;
-  display: flex;
+  display: flex;}
+.about_me{
+  height: 50%;
+  width: 50%;
+  
 }
