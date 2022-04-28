@@ -7,6 +7,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+@font-face {
+  font-family: 'Pixel';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Pixel'), url("./containers/pixeldeb.ttf") format('truetype');
+  }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
