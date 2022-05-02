@@ -11,7 +11,7 @@ function App() {
         <video autoPlay loop muted className='vid_main' id='vido'>
           <source src={vid_main} type="video/mp4"></source>
         </video>
-        <img src='/images/my_photo.jpeg' alt='my photo'
+        <img src='./my_photo.jpeg' alt='my photo'
         className='my_photo grow dib f4-ns no-underline'/>
       </div>
       <h1 className='text_first greet send_me_y1'> Hi I'm Nick</h1>
