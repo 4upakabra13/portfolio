@@ -7,25 +7,25 @@ import {Icon} from '@iconify/react'
 function App() {
   return (
     <div className="App flex flex-column">
-      <div className='first flex '>
+      <div className='first flex' id='first'>
         <video autoPlay loop muted className='vid_main' id='vido'>
           <source src={vid_main} type="video/mp4"></source>
         </video>
         <img src='/images/my_photo.jpeg' alt='my photo'
         className='my_photo grow dib f4-ns no-underline'/>
       </div>
-      <h1 className='text_first greet'> Hi I'm Nick</h1>
-      <h2 className='text_first love'>I love technology and coding</h2>
+      <h1 className='text_first greet send_me_y1'> Hi I'm Nick</h1>
+      <h2 className='text_first love send_me_y1'>I love technology and coding</h2>
       <div className="topnav">
         <div className='namee'>
           Nikita Utkin
         </div>
         <div className='skills_nav'>
-          <a className='butt_nav no-underline grow dib fw9 db pointer '>About</a>
-          <a className='butt_nav no-underline grow dib fw9 db pointer '>Home</a>
-          <a className='butt_nav no-underline grow dib fw9 db pointer '>Skillset</a>
-          <a className='butt_nav no-underline grow dib fw9 db pointer '>Projects</a>
-          <a className='butt_nav no-underline grow dib fw9 db pointer '>Contact</a>
+          <a className='butt_nav no-underline grow dib fw9 db pointer' href='#second'>About</a>
+          <a className='butt_nav no-underline grow dib fw9 db pointer' href='#first'>Home</a>
+          <a className='butt_nav no-underline grow dib fw9 db pointer' href='#third'>Skillset</a>
+          <a className='butt_nav no-underline grow dib fw9 db pointer' href='#fourth'>Projects</a>
+          <a className='butt_nav no-underline grow dib fw9 db pointer' href='#fifth'>Contact</a>
         </div>
         <div className='icons'>
           <a href='https://github.com/4upakabra13' target="_blank"><Icon icon="akar-icons:github-fill" color='#00d5ea' className='github_icon icons_h grow dib fw6 db'/></a>
@@ -33,7 +33,7 @@ function App() {
           <a href='https://www.linkedin.com/in/nikita-utkin-lmao1/ target="_blank"'><Icon icon="akar-icons:linkedin-box-fill" color='#00d5ea' className='icons_h linkedin_icon grow dib fw6 db'/></a>
         </div>
       </div>
-      <div className='second'>
+      <div className='second' id='second'>
         <div className='about'>
           <div className='about_text'>
             <div className='sector reveal'></div>
@@ -57,7 +57,7 @@ function App() {
             <div className='sector2 reveal'></div>
           </div>
         </div>
-        <div className='skills'>
+        <div className='skills' id='third'>
           <div className='skills_l'>
             <div className='sector3'></div>
             <div className='sector4'></div>
@@ -97,7 +97,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='projects'>
+      <div className='projects' id='fourth'>
           <div className='sector7'></div>
           <div className='sector8'></div>
           {/* <div className='sector9'></div> */}
@@ -138,21 +138,35 @@ function App() {
           More coming soon ...
         </div>
       </div>
-      <div className='contact'>
-        <div>
-          <h1 className='greet'> Send me a feedback!</h1>
+      <div className='contact' id='fifth'>
+        <div className='send_me_y'>
+          <h1 className='greet send_me_y1'> Send me your feedback!</h1>
         </div>
-        <div className='f_email'>
-
-        </div>
-        <div className='f_context'>
-
-        </div>
-        <div>
-
+        <div className='sector9'></div>
+        <div className='sector10'></div>
+        <div className='sector11'></div>
+        <div className='sector12'></div>
+          <form target="_blank" action="https://formsubmit.co/f5de1f44241b7abc1e71462f8037ea41" method="POST">
+            <div class="form-group">
+              <div class="form-row">
+                <div class="col">
+                  <input type="email" name="email" class="form-control" placeholder="Your Email Address" required />
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+            </div>
+            <button type="submit" class="grow pointer namee submit_f send_me_y1">Submit Form</button>
+          </form>
+          <div>
         </div>
       </div>
-      
+      <div className='wip'>
+        <h1 className='rest_of greet'>Rest of the page is work in progress</h1>
+        <img src='/images/wip.gif' className='wip-gif'/>
+        <h2 className='tfya'>Thank you for your attention</h2>
+      </div>
     </div>
   );
 }

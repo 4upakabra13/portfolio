@@ -84,12 +84,14 @@
   top: 9%;
   font-family: 'Gumball';
   font-weight: 200;
-  font-size: 70px;}
+  font-size: 70px;
+color: #00d5ea;}
 .love{
   top: 11%;
   font-family:'Gumball';
   font-weight: 400;
-  font-size: 30px;}
+  font-size: 30px;
+  color: #00d5ea;}
 .second{
   position: absolute;
   top: 17%;
@@ -328,17 +330,107 @@ skills_m{
   top: 66%;
   display: flex;
   flex-direction: column;
+  gap: 5%;
+  justify-content: center;
+  align-items: center;
 }
 
 .f_email{
-  width: 10%;
-  height: 10%;
+  width: 50%;
+  height: 3%;
   background-color: #00d5ea;
 }
 
 .f_context{
-  width: 10%;
-  height: 10%;
+  width: 50%;
+  height: 45%;
   background-color: #00d5ea;
 }
+
+.submit_f{
+  padding: none;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.form-control{
+  width: 40em;
+  background-color: #00d5ea;
+  border: 4px solid white;
+  margin: 30px;
+  
+}
+
+.col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.sector9{
+  background-color: #00d5ea;
+  position: absolute;
+  height: 20%;
+  width: 10%;
+  top: -10%;
+  right: 0;
+}
+
+.sector10{
+  background-color: #00d5ea;
+  position: absolute;
+  height: 10%;
+  width: 30%;
+  top: 27%;
+  right: 0;
+}
+
+.sector11{
+  background-color: #00d5ea;
+  position: absolute;
+  height: 10%;
+  width: 30%;
+  bottom: 0;
+  left: 0;
+}
+
+.sector12{
+  background-color: #00d5ea;
+  position: absolute;
+  height: 30%;
+  width: 10%;
+  bottom: 0;
+  left: 0;
+}
+
+.send_me_y1{
+  color: white;
+}
+
+.wip{
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  background-color:#f75dce;
+  top: 81%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.wip-gif{
+  
+  width: 40%;
+  height: auto;
+}
+
+.tfya{
+  font-family: 'Pixel';
+  color: white;
+}
+
 
