@@ -11,7 +11,7 @@ function App() {
         <video autoPlay loop muted className='vid_main' id='vido'>
           <source src={vid_main} type="video/mp4"></source>
         </video>
-        <img src='images./my_photo.jpeg' alt='my photo'
+        <img src='/images./my_photo.JPEG' alt='my photo'
         className='my_photo grow dib f4-ns no-underline'/>
       </div>
       <h1 className='text_first greet send_me_y1'> Hi I'm Nick</h1>
@@ -53,7 +53,7 @@ function App() {
             </div>
           </div>
           <div className='about_photo'>
-            <img src='/images/about_me.svg' className='about_photoo'/>
+            <img src='/images/about_me.SVG' className='about_photoo'/>
             <div className='sector2 reveal'></div>
           </div>
         </div>
@@ -107,7 +107,7 @@ function App() {
             <div className='project_c'>
               <div className='robofriends'>rest api</div>
               <div>
-                <img src="/images/api.png" className='grow api' />
+                <img src="/images/api.PNG" className='grow api' />
               </div>
               <div className='story robo_t'>
                 I built a rest api in aws gateway, created two methods which
@@ -122,7 +122,7 @@ function App() {
             <div className='project_c project_2'>
               <div className='robofriends'>robofriends</div>
               <div>
-                <img src="/images/robot.png" className='grow robo' />
+                <img src="/images/robot.PNG" className='grow robo' />
               </div>
               <div className='story robo_t'>
                 Basic project build with React which generates
@@ -164,7 +164,7 @@ function App() {
       </div>
       <div className='wip'>
         <h1 className='rest_of greet'>Rest of the page is work in progress</h1>
-        <img src='/images/wip.gif' className='wip-gif'/>
+        <img src='/images/wip.GIF' className='wip-gif'/>
         <h2 className='tfya'>Thank you for your attention</h2>
       </div>
     </div>
