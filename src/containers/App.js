@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import vid_main from './vid_main.mp4';
-import about_me from 'images/about_me.SVG';
+import about_me from 'public/images/about_me.SVG';
 import api from 'images/api.PNG';
 import my_photo from 'images/my_photo.JPEG';
 import robot from 'images/robot.PNG';
