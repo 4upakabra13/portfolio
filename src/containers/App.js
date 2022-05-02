@@ -7,6 +7,7 @@ import my_photo from './my_photo.JPEG';
 import robot from './robot.PNG';
 import wip from './wip.GIF';
 import {Icon} from '@iconify/react'
+import CV from './Nikita_Utkin.pdf'
 // import reveal from '../components/scroll_func'
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
         </div>
         <div className='icons'>
           <a href='https://github.com/4upakabra13' target="_blank"><Icon icon="akar-icons:github-fill" color='#00d5ea' className='github_icon icons_h grow dib fw6 db'/></a>
-          <Icon icon="academicons:cv" color='#00d5ea' className='icons_h cv_icon grow dib fw6 db '/>
+          <a  href={CV} target="_blank"><Icon icon="academicons:cv" color='#00d5ea' className='icons_h cv_icon grow dib fw6 db pointer'/></a>
           <a href='https://www.linkedin.com/in/nikita-utkin-lmao1/ target="_blank"'><Icon icon="akar-icons:linkedin-box-fill" color='#00d5ea' className='icons_h linkedin_icon grow dib fw6 db'/></a>
         </div>
       </div>
