@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-// import vid_main from './vid_main.mp4';
-// import about_me from '../images/about_me.SVG';
-// import api from 'images/api.PNG';
-// import my_photo from 'images/my_photo.JPEG';
-// import robot from 'images/robot.PNG';
-// import wip from 'images/wip.GIF';
+import vid_main from './vid_main.mp4';
+import about_me from '../images/about_me.SVG';
+import api from 'images/api.PNG';
+import my_photo from 'images/my_photo.JPEG';
+import robot from 'images/robot.PNG';
+import wip from 'images/wip.GIF';
 import {Icon} from '@iconify/react'
 // import reveal from '../components/scroll_func'
 
@@ -58,7 +58,7 @@ function App() {
             </div>
           </div>
           <div className='about_photo'>
-            <img src='../images/about_me.SVG' className='about_photoo'/>
+            <img src={about_me} className='about_photoo'/>
             <div className='sector2 reveal'></div>
           </div>
         </div>
