@@ -3,7 +3,7 @@ import './App.css';
 import vid_main from './vid_main.mp4';
 import about_me from './about_me.SVG';
 import api from './api.PNG';
-import my_photo from './my_photo.JPEG';
+// import my_photo from './my_photo.JPEG';
 import robot from './robot.PNG';
 import wip from './wip.GIF';
 import {Icon} from '@iconify/react'
@@ -16,7 +16,7 @@ function App() {
         <video autoPlay loop muted className='vid_main' id='vido'>
           <source src={vid_main} type="video/mp4"></source>
         </video>
-        <img src={my_photo} alt='my photo'
+        <img src='https://imgur.com/a/ySrOJjP' alt='my photo'
         className='my_photo grow dib f4-ns no-underline'/>
       </div>
       <h1 className='text_first greet send_me_y1'> Hi I'm Nick</h1>
