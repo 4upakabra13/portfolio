@@ -1,18 +1,24 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.14106fcf.css",
-    "main.js": "/portfolio/static/js/main.6934dee3.js",
+    "main.js": "/portfolio/static/js/main.0baa7a29.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/vid_main.mp4": "/portfolio/static/media/vid_main.a4da29d36c5e9e96a0fd.mp4",
+    "static/media/Nikita_Utkin.pdf": "/portfolio/static/media/Nikita_Utkin.69780fb4b7c7e8358723.pdf",
+    "static/media/my_photo.JPEG": "/portfolio/static/media/my_photo.51e409765e492657f80a.JPEG",
+    "static/media/wip.GIF": "/portfolio/static/media/wip.32eafe16dc675c9cecb3.GIF",
     "static/media/Gumball.ttf": "/portfolio/static/media/Gumball.2e792f78e393091fca50.ttf",
     "static/media/pixeldeb.ttf": "/portfolio/static/media/pixeldeb.1157ffe6f6cbdf912755.ttf",
+    "static/media/robot.PNG": "/portfolio/static/media/robot.b46c69623427fa709640.PNG",
+    "static/media/api.PNG": "/portfolio/static/media/api.eed84d918373b8315867.PNG",
+    "static/media/about_me.SVG": "/portfolio/static/media/about_me.8a713ee972c5663d4576.SVG",
     "index.html": "/portfolio/index.html",
     "main.14106fcf.css.map": "/portfolio/static/css/main.14106fcf.css.map",
-    "main.6934dee3.js.map": "/portfolio/static/js/main.6934dee3.js.map",
+    "main.0baa7a29.js.map": "/portfolio/static/js/main.0baa7a29.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14106fcf.css",
-    "static/js/main.6934dee3.js"
+    "static/js/main.0baa7a29.js"
   ]
 }
