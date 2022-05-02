@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import vid_main from './vid_main.mp4';
-import about_me from './about_me.SVG';
-import api from './api.PNG';
-import my_photo from './my_photo.JPEG';
-import robot from './robot.PNG';
-import wip from './wip.GIF';
+import about_me from 'images/about_me.SVG';
+import api from 'images/api.PNG';
+import my_photo from 'images/my_photo.JPEG';
+import robot from 'images/robot.PNG';
+import wip from 'images/wip.GIF';
 import {Icon} from '@iconify/react'
 // import reveal from '../components/scroll_func'
 
