@@ -330,4 +330,15 @@ skills_m{
   flex-direction: column;
 }
 
+.f_email{
+  width: 10%;
+  height: 10%;
+  background-color: #00d5ea;
+}
+
+.f_context{
+  width: 10%;
+  height: 10%;
+  background-color: #00d5ea;
+}
 

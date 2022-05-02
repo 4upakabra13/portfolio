@@ -139,8 +139,20 @@ function App() {
         </div>
       </div>
       <div className='contact'>
+        <div>
+          <h1 className='greet'> Send me a feedback!</h1>
+        </div>
+        <div className='f_email'>
 
+        </div>
+        <div className='f_context'>
+
+        </div>
+        <div>
+
+        </div>
       </div>
+      
     </div>
   );
 }
