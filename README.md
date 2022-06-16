@@ -14,3 +14,7 @@ It contains information about me, my projects and links to my socials.
   color: #00d5ea;
   color: #f75dce;
 ```
+  
+<h2> Interactive navbar</h2>
+
+![navbar_sample](./navb.jpg)
