@@ -24,3 +24,5 @@ It contains information about me, my projects and links to my socials.
 ![custom_font_sample](./g_font.png)
   
 You can fork/clone this repo to see the web page or just visit https://4upakabra13.github.io/portfolio/
+  
+  <h2>En taro tassadar, my friends</h2>
