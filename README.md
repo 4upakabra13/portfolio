@@ -9,7 +9,7 @@ It contains information about me, my projects and links to my socials.
 
 <h2>Rich color palette<h2>
   
-```yaml
+```css
   color: #fed768;
   color: #00d5ea;
   color: #f75dce;
