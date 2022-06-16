@@ -19,4 +19,4 @@ It contains information about me, my projects and links to my socials.
 
 ![navbar_sample](./navb.jpg)
   
-  <h2>a</h2>
+  <h2>ab</h2>
