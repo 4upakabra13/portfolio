@@ -18,3 +18,5 @@ It contains information about me, my projects and links to my socials.
 <h2> Interactive navbar</h2>
 
 ![navbar_sample](./navb.jpg)
+  
+  <h2>a</h2>
