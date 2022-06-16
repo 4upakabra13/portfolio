@@ -19,4 +19,5 @@ It contains information about me, my projects and links to my socials.
 
 ![navbar_sample](./navb.jpg)
   
-  <h2>ab</h2>
+  <h2>Custom fonts</h2>
+![custom_font_sample](./g_font.png)
