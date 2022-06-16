@@ -14,10 +14,3 @@ It contains information about me, my projects and links to my socials.
   color: #00d5ea;
   color: #f75dce;
 ```
-  <span style="color:red">asdasdasdasd</span>
-  
-![https://via.placeholder.com/15/f75dce.jpg](https://via.placeholder.com/15/f75dce.jpg)`#f75dce`
-![https://via.placeholder.com/15/c5f015.jpg](https://via.placeholder.com/15/c5f015.jpg)`#c5f015`
-![https://via.placeholder.com/15/1589F0.jpg](https://via.placeholder.com/15/1589F0.jpg)`#1589F0`
-
-
