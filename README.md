@@ -8,5 +8,10 @@ It contains information about me, my projects and links to my socials.
 ![sample of a webpage](./sample1.jpg)
 
 <h2>Rich color palette<h2>
-<div style="color:red; width:5%;"></div>
+  
+```yaml
+  color: #fed768;
+  color:#00d5ea;
+  color: #f75dce;
+```
 
