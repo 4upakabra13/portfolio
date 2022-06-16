@@ -17,6 +17,7 @@ It contains information about me, my projects and links to my socials.
   <span style="color:red">asdasdasdasd</span>
   
 ![https://via.placeholder.com/15/f75dce.jpg](https://via.placeholder.com/15/f75dce.jpg)`#f75dce`
-![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015`
-![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
+![https://via.placeholder.com/15/c5f015.jpg](https://via.placeholder.com/15/c5f015.jpg)`#c5f015`
+![https://via.placeholder.com/15/1589F0.jpg](https://via.placeholder.com/15/1589F0.jpg)`#1589F0`
+
 
