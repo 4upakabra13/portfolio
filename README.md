@@ -7,3 +7,6 @@ It contains information about me, my projects and links to my socials.
 
 ![sample of a webpage](./sample1.jpg)
 
+<h2>Rich color palette<h2>
+<div style="color:red; width:5%;"></div>
+
